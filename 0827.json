@@ -1,22 +1,15 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;211cb09b88752dd0d56201b84b0b3e47",
+  "spider": "./jar/custom_spider.jar;md5;08e60753eb29394b75c088e1f06dfb17",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
-    {
-      "key": "影視",
-      "name": "影視",
-      "type": 3,
-      "api": "csp_YingShi",
-      "searchable": 1,
-      "changeable": 1
-    },
     {
       "key": "泥巴",
       "name": "泥巴",
       "type": 3,
       "api": "csp_NiNi",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "proxy": true
     },
     {
       "key": "星星",
@@ -24,7 +17,8 @@
       "type": 3,
       "api": "csp_Star",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "proxy": true
     },
     {
       "key": "玩偶",
@@ -72,10 +66,35 @@
       "changeable": 1
     },
     {
+      "key": "haiwaikan",
+      "name": "海外看",
+      "type": 1,
+      "api": "https://haiwaikan.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "proxy": true
+    },
+    {
       "key": "暴風",
       "name": "暴風",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "索尼",
+      "name": "索尼 ",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快帆",
+      "name": "快帆",
+      "type": 1,
+      "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
     },
@@ -135,7 +154,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动漫#帕梅拉#舞蹈#音乐#风景#演唱会#记录片",
+        "categories": "帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考",
         "cookie": ""
       }
     },
@@ -289,7 +308,10 @@
         "haiwaikan"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:2.93[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "8.1748",
+        "10.0099",
+        "10.3333",
+        "16.0599"
       ]
     },
     {
