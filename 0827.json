@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab",
+  "spider": "./jar/custom_spider.jar;md5;eb9ef1e338ee3b01ef1c1c388841d7bb",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -40,15 +40,6 @@
       }
     },
     {
-      "key": "盤99",
-      "name": "盤99",
-      "type": 3,
-      "api": "csp_Pan99",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "影視天下第一"
-    },
-    {
       "key": "賤賤",
       "name": "賤賤",
       "type": 3,
@@ -57,6 +48,8 @@
       "changeable": 1,
       "ext": "./json/jianpian.json"
     },
+{"key":"drpy_js_ikanbot3","name":"爱看","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
+{"key":"T4-duanju5","name":"短剧屋","type":4,"api":"https://catbox.n13.club/duanju5.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":true},
     {
       "key": "獨播",
       "name": "獨播",
@@ -107,22 +100,6 @@
         "纪录片",
         "经典片"
       ]
-    },
-    {
-      "key": "996影院",
-      "name": "996影院",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "短劇",
-      "name": "短劇",
-      "type": 3,
-      "api": "csp_Duanju",
-      "searchable": 1,
-      "changeable": 0
     },
     {
       "key": "豆瓣",
@@ -238,7 +215,7 @@
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "api": "./cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
@@ -425,12 +402,13 @@
         "haiwaikan"
       ],
       "regex": [
+        "8.16",
+        "8.1748",
         "10.0099",
         "10.3333",
-        "16.0599",
-        "8.1748",
+        "10.85",
         "12.33",
-        "10.85"
+        "16.0599"
       ]
     },
     {
@@ -479,8 +457,7 @@
         "hd.ffzy"
       ],
       "regex": [
-        "25.0666",
-        "25.08"
+        "25.1"
       ]
     },
     {
@@ -520,7 +497,7 @@
       ]
     },
     {
-      "name": "夜市",
+      "name": "夜市點擊",
       "hosts": [
         "yeslivetv.com"
       ],
@@ -529,7 +506,7 @@
       ]
     },
     {
-      "name": "毛驢",
+      "name": "毛驢點擊",
       "hosts": [
         "www.maolvys.com"
       ],
@@ -539,6 +516,7 @@
     }
   ],
   "ads": [
-    "mozai.4gtv.tv"
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
   ]
 }
